@@ -9,7 +9,8 @@ const restData = [
         "postcode": "3JH",
         "rating": "5.0",
         "type_of_food": "Chinese",
-        "image": "1.jpg"
+        "image": "1.jpg",
+        "owner": "0x182a251472d59e0e2942552382b395e99e87aa68"
     },
     {
         " URL": "http://www.just-eat.co.uk/restaurants-atthai-ss9/menu",
@@ -21,7 +22,8 @@ const restData = [
         "postcode": "5PT",
         "rating": "5.5",
         "type_of_food": "Continental",
-        "image": "2.jpg"
+        "image": "2.jpg",
+        "owner": ""
     },
     {
         "URL": "http://www.just-eat.co.uk/restaurants-atthairestaurant/menu",
@@ -33,7 +35,8 @@ const restData = [
         "postcode": "8NX",
         "rating": "4.2",
         "type_of_food": "Thai",
-        "image": "3.jpg"
+        "image": "3.jpg",
+        "owner": ""
     },
     {
         "URL": "http://www.just-eat.co.uk/restaurants-atthairestaurant/menu",
@@ -45,7 +48,8 @@ const restData = [
         "postcode": "8NX",
         "rating": "4.5",
         "type_of_food": "French",
-        "image": "4.jpg"
+        "image": "4.jpg",
+        "owner": ""
     },
     {
         "URL": "http://www.just-eat.co.uk/restaurants-indiancom-ch4/menu",
@@ -57,7 +61,8 @@ const restData = [
         "postcode": "0QR",
         "rating": "6.0",
         "type_of_food": "Curry",
-        "image": "5.png"
+        "image": "5.png",
+        "owner": ""
     },
     {
         "URL": "http://www.just-eat.co.uk/restaurants-007takeaway-s65/menu",
@@ -69,7 +74,8 @@ const restData = [
         "postcode": "1HY",
         "rating": "6.0",
         "type_of_food": "Pizza",
-        "image": "6.jpg"
+        "image": "6.jpg",
+        "owner": ""
     }
 ]
 
