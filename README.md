@@ -1,3 +1,7 @@
+# NOTE: We updated our demo video since metamask prompt was not visible in our original demo submission which we linked in Devfolio submission page.
+Please see the new Link here:
+https://www.loom.com/share/7091d497ff8f49a2a2830e797b5b9cf6 
+
 # Contract Address on Filecoin Hyperspace testnet
 
 The smart contract to mint tokens has been deployed at 0x0A1994c6c0719D95727A70Bac8F5E12186Bb5Ea0
