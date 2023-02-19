@@ -1,3 +1,23 @@
+# Contract Address on Filecoin Hyperspace testnet
+
+The smart contract to mint tokens has been deployed at 0x0A1994c6c0719D95727A70Bac8F5E12186Bb5Ea0
+
+# BuffetOnTime
+
+BuffetOnTime is a dapp which lets you pay for the time you eat. Money streaming is done from sender(customer) to receiver(Restaurant Owner) and the amount is automatically transferred per second
+
+# The Problems BuffetOnTime solves
+When going to a buffet in a restaurant, often times customers feel the amount they paid does not justify the quantity of the food they consumed, so they try to overeat to make their money worth it. Currently buffets have a fixed price, so the customer has to pay the price regardless of whether they feel the food quality was good or not.
+
+Moreover, sometimes customers have certain dietary restrictions and they can only consume certain food items/dishes because of which they get over charged. BuffetOnTime helps users to automatically transfer money to the restaurant owner from user's metamask account per second for the time they are eating and they can still eat unlimited food. This helps users to get their money's worth as they can pay for exactly the amount of time they are eating. Users can also claim tokens for using our app which can be availed later to get discounts/benefits. It will also help the restaurant to not get overcrowded.
+
+# Future Plans
+
+* Implementing a system through which customers can trade tokens for discounts/benefits
+* Integrating Push protocol to send notifications to inform the customer about the money transferred through the stream/money left.
+* Fetch real time data of restuarants and adding more restaurants
+* Improve UI and allow users to view reviews of restaurants
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -31,7 +51,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Note: this is a one-way operation. Once you `eject`, you can't go back!*
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
