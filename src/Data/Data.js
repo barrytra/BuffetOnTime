@@ -1,6 +1,5 @@
 const restData = [
     {
-        "URL": "http://www.just-eat.co.uk/restaurants-cn-chinese-cardiff/menu",
         "_id": "1",
         "address": "228 City Road",
         "address line 2": "Cardiff",
@@ -10,10 +9,12 @@ const restData = [
         "rating": "5.0",
         "type_of_food": "Chinese",
         "image": "1.jpg",
-        "owner": "0x182a251472d59e0e2942552382b395e99e87aa68"
+        "owner": "0x182a251472D59e0E2942552382b395e99E87AA67",
+        "flowRate": "10000000000",
+        "passwordStart": "1start",
+        "passwordStop": "1stop"
     },
     {
-        " URL": "http://www.just-eat.co.uk/restaurants-atthai-ss9/menu",
         "_id": "2",
         "address": "376 Rayleigh Road",
         "address line 2": "Essex",
@@ -23,10 +24,12 @@ const restData = [
         "rating": "5.5",
         "type_of_food": "Continental",
         "image": "2.jpg",
-        "owner": ""
+        "owner": "0x5c6B0f7Bf3E7ce046039Bd8FABdfD3f9F5021678",
+        "flowRate": "10000000000",
+        "passwordStart": "2start",
+        "passwordStop": "2stop"
     },
     {
-        "URL": "http://www.just-eat.co.uk/restaurants-atthairestaurant/menu",
         "_id": "3",
         "address": "30 Greyhound Road Hammersmith",
         "address line 2": "London",
@@ -36,10 +39,12 @@ const restData = [
         "rating": "4.2",
         "type_of_food": "Thai",
         "image": "3.jpg",
-        "owner": ""
+        "owner": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+        "flowRate": "10000000000",
+        "passwordStart": "3start",
+        "passwordStop": "3stop"
     },
     {
-        "URL": "http://www.just-eat.co.uk/restaurants-atthairestaurant/menu",
         "_id": "4",
         "address": "30 Greyhound Road Hammersmith",
         "address line 2": "London",
@@ -49,10 +54,12 @@ const restData = [
         "rating": "4.5",
         "type_of_food": "French",
         "image": "4.jpg",
-        "owner": ""
+        "owner": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+        "flowRate": "10000000000",
+        "passwordStart": "4start",
+        "passwordStop": "4stop"
     },
     {
-        "URL": "http://www.just-eat.co.uk/restaurants-indiancom-ch4/menu",
         "_id":"5",
         "address": "9 Broughton Hall Road",
         "address line 2": "Broughton",
@@ -62,10 +69,12 @@ const restData = [
         "rating": "6.0",
         "type_of_food": "Curry",
         "image": "5.png",
-        "owner": ""
+        "owner": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+        "flowRate": "10000000000",
+        "passwordStart": "5start",
+        "passwordStop": "5stop"
     },
     {
-        "URL": "http://www.just-eat.co.uk/restaurants-007takeaway-s65/menu",
         "_id": "6",
         "address": "6 Drummond Street",
         "address line 2": "Rotherham",
@@ -75,7 +84,10 @@ const restData = [
         "rating": "6.0",
         "type_of_food": "Pizza",
         "image": "6.jpg",
-        "owner": ""
+        "owner": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+        "flowRate": "10000000000",
+        "passwordStart": "6start",
+        "passwordStop": "6stop"
     }
 ]
 
