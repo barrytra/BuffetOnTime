@@ -18,6 +18,13 @@ Moreover, sometimes customers have certain dietary restrictions and they can onl
 * Fetch real time data of restuarants and adding more restaurants
 * Improve UI and allow users to view reviews of restaurants
 
+# Dependencies
+* @arcana/auth
+* @arcana/auth-react
+* @superfluid-finance/sdk-core
+* graphql
+* ethers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
