@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
     z-index: 4;
-    background-color: white;
+    background-color: #ffffff;
     padding: 16px 5%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     display: flex;
@@ -43,14 +43,63 @@ cursor: pointer;
 }
 `
 
-export default function Navbar(props) {
+
+export default function Navbar() {
+    const [currentAccount, setCurrentAccount] = useState("");
+
+    const connectWallet = async () => {
+      try {
+        const { ethereum } = window;
+  
+        if (!ethereum) {
+          alert("Get MetaMask!");
+          return;
+        }
+        const accounts = await ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        console.log("Connected", accounts[0]);
+        setCurrentAccount(accounts[0]);
+    
+      } catch (error) {
+        console.log(error);
+      }
+    };
+  
+    const checkIfWalletIsConnected = async () => {
+      const { ethereum } = window;
+  
+      if (!ethereum) {
+        console.log("Make sure you have metamask!");
+        return;
+      } else {
+        console.log("We have the ethereum object", ethereum);
+      }
+  
+      const accounts = await ethereum.request({ method: "eth_accounts" });
+      const chain = await window.ethereum.request({ method: "eth_chainId" });
+      let chainId = chain;
+      console.log("chain ID:", chain);
+      console.log("global Chain Id:", chainId);
+      if (accounts.length !== 0) {
+        const account = accounts[0];
+        console.log("Found an authorized account:", account);
+        setCurrentAccount(account);
+      } else {
+        console.log("No authorized account found");
+      }
+    };
+  
+    useEffect(() => {
+      checkIfWalletIsConnected();
+    }, []);
     
     return (
         <Nav>
 
             <Heading to="/" > Buffet On Time</Heading>
-            {props.currentAccount === "" ? <Wallet to="/" onClick={props.connectWallet}> Connect Wallet</Wallet> : <h3>{props.currentAccount}</h3>}
-            {/* <Wallet to="/wallet" onClick={connectWallet}> Connect Wallet</Wallet> */}
+            {currentAccount === "" ? <Wallet to="/" onClick={connectWallet}> Connect Wallet</Wallet> : <h3>{currentAccount}</h3>}
+
             
         </Nav>
     );
